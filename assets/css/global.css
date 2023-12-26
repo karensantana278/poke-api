@@ -1,19 +1,29 @@
 *{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    background-color: #f6f8fc;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h1 span{
+    color: red;
 }
 
 .content{
     padding: 1rem;
-    background-color: white;
     height: 100vh;
     width: 100vw;
 }
+
 
 @media screen and (min-width: 992px) {
     .content{
